@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tugas Kelompok</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    transition: background 0.5s, color 0.5s;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 80%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-bar ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    display: block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .nav-bar ul li a:hover {
+    background: #ffcc00;
+    color: #24243e;
+  }
+  
+  .biodata-box {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    flex: 2;
+  }
+  
+  .biodata-box img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .biodata-box img:hover {
+    transform: scale(1.1);
+  }
+  
+  .biodata-text {
+    text-align: center;
+  }
+
+  .biodata-text h1 {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .biodata-box {
+      width: 100%;
+      text-align: center;
+    }
+    .biodata-box img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+</style>
+</head>
+<body>
+<!-- HEADER START -->
+<header>
+  BIODATA GURU JURUSAN TEKNIK LOGISTIK
+</header>
+<!-- HEADER END -->
+ 
+<!-- MAIN START -->
+<div class="container">
+  <!-- ASIDE START -->
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="index.html">Faisal Akbar SE</a></li>
+      <li><a href="index2.html">Risky Hakiki ST</a></li>
+      <li><a href="#">Ari Jafitriah S.pd</a></li>
+    </ul>
+  </nav>
+  <!-- ASIDE END -->
+
+  <!-- CONTENT START -->
+  <div class="biodata-box"> 
+    <img src="bu_ari.jpg">
+    <div class="biodata-text">
+      <h1>Biodata</h1>
+      <p><strong>Nama:</strong> Ari Jafitriah S.pd</p>
+      <p><strong>Hobi:</strong> Membaca</p>
+      <p><strong>Usia:</strong> 43 Tahun</p>
+      <p><strong>Tanggal Lahir:</strong> 26 Juni 1881</p>
+      <p><strong>Pekerjaan:</strong> Guru Kapro Teknik Logistik</p>
+    </div>
+  </div>
+  <!-- CONTENT END -->
+</div>
+<!-- MAIN END -->
+
+<!-- FOOTER START -->
+<footer>
+  &copy; 2025. Anggota Kelompok: Azhar,Dimas,Fira,Keisya.
+</footer>
+<!-- FOOTER END -->
+</body>
+</html>
